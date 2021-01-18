@@ -1,0 +1,622 @@
+{
+  "ent": [
+    {
+      "question": "Who is the most followed person on instagram?    ",
+      "Answer": "Cristiano Ronaldo",
+      "option1": "Airana Grande",
+      "option2": "Kylie Jenner",
+      "option3": "Lionel Messi",
+      "weight": "1",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "question": "Which of the following indian has won the oscar? ",
+      "Answer": "Satyajit Ray",
+      "option1": "Priyadarshan",
+      "option2": "Yash Chopra",
+      "option3": "Anurag Kashyap",
+      "weight": 1
+    },
+    {
+      "id": 3,
+      "question": "Which is the highest grossing movie in india?",
+      "Answer": "Avengers:Endgame",
+      "option1": "Avengers:Infinity War",
+      "option2": "The Jungle Book",
+      "option3": "FF8",
+      "weight": 1
+    },
+    {
+      "id": 4,
+      "question": "Which of the following indian actor has shared sliver screen with tom cruise?",
+      "Answer": "Anil Kapoor",
+      "option1": "Akshay Kumar",
+      "option2": "Anupam Kher",
+      "option3": "Irrfan Khan",
+      "weight": 1
+    },
+    {
+      "id": 5,
+      "question": "Which of the following movie was released in theaters?",
+      "Answer": "Ramprasad ki tehrvi",
+      "option1": "Gulabo Sitabo",
+      "option2": "Laxmi bomb",
+      "option3": "Ludo",
+      "weight": 1
+    },
+    {
+      "id": 6,
+      "question": "Aishwarya Rai was crowned Miss World in which year?",
+      "Answer": "1994",
+      "option1": "1995",
+      "option2": "1993",
+      "option3": "1996",
+      "weight": 1
+    },
+    {
+      "id": 7,
+      "question": "Who is known as the 'father of Indian Cinema'",
+      "Answer": "Dadasaheb Phalke",
+      "option1": "Dadasaheb Torne",
+      "option2": "Satyajit Ray",
+      "option3": "V. Shantaram",
+      "weight": 1
+    },
+    {
+      "id": 8,
+      "question": "Lata Mangeshkar awarded with Bharat Ratna in the year",
+      "Answer": "2001",
+      "option1": "1998",
+      "option2": "2003",
+      "option3": "2005",
+      "weight": 1
+    },
+    {
+      "id": 9,
+      "question": "Real name of Rajnikant?",
+      "Answer": "Shivaji Rao Gaekwad",
+      "option1": "Shivaji Rao Deshmukh",
+      "option2": "Shivaji Rao ",
+      "option3": "Shivaji ",
+      "weight": 1
+    },
+    {
+      "id": 10,
+      "question": "Who is the first indian movie star to be featured on the cover of Time magazine ",
+      "Answer": "parveen Babi",
+      "option1": "Zeenat Aman",
+      "option2": "Amir Khan",
+      "option3": "Aishwarya Rai",
+      "weight": "2"
+    },
+    {
+      "question": "animal ",
+      "Answer": "lion",
+      "option1": "swan",
+      "option2": "land",
+      "option3": "tiger",
+      "img": "data:image/jpeg;base64,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",
+      "weight": "1",
+      "id": 11
+    }
+  ],
+  "com": [
+    {
+      "id": 1,
+      "question": "Ctrl, Shift and Alt are called .......... keys.",
+      "Answer": "modifier",
+      "option2": "function",
+      "option3": "adjustment",
+      "option1": "alphanumeric",
+      "weight": 1
+    },
+    {
+      "id": 2,
+      "question": "MS-Word is an example of _____",
+      "option1": "An operating system",
+      "option2": "A processing device",
+      "Answer": "Application software",
+      "option3": "An input device",
+      "weight": 1
+    },
+    {
+      "id": 3,
+      "question": "A computer cannot 'boot' if it does not have the _____",
+      "option1": "Compiler",
+      "option2": "Loader",
+      "Answer": "Operating System",
+      "option3": "Assembler",
+      "weight": 1
+    },
+    {
+      "id": 4,
+      "question": "By default, your documents print in ________ mode",
+      "option1": "Landscape",
+      "Answer": "Portrait",
+      "option3": "Page Setup",
+      "option2": "Print View",
+      "weight": 1
+    },
+    {
+      "id": 5,
+      "question": "Which of the following is a popular programming language for developing multimedia webpages",
+      "option1": "COBOL",
+      "Answer": "Java",
+      "option3": "Basic",
+      "option2": "Assembler",
+      "weight": 1
+    },
+    {
+      "id": 6,
+      "question": "The first computer was programmed using .......",
+      "option1": "Assembly language",
+      "Answer": "Machine Language",
+      "option3": "Spaghetti code",
+      "option2": "Source code",
+      "weight": 1
+    },
+    {
+      "id": 7,
+      "question": "The computer's processor consists of the following parts",
+      "option1": "CPU and Main memory",
+      "option2": "Hard Disk and Floppy Drive",
+      "Answer": "Control Unit and ALU",
+      "option3": "OS and Application",
+      "weight": 1
+    },
+    {
+      "id": 8,
+      "question": "A _______ is a software program used to view Web pages.",
+      "option1": "site",
+      "option2": "host",
+      "option3": "link",
+      "Answer": "browser",
+      "weight": 1
+    },
+    {
+      "id": 9,
+      "question": "Where is RAM located?",
+      "Answer": "Mother Board",
+      "option2": "Expansion Board",
+      "option3": "External Drive",
+      "option1": "None",
+      "weight": 1
+    }
+  ],
+  "lit": [
+    {
+      "id": 1,
+      "question": "Who among the following writers won the 2017 Sahitya Academy Award for Hindi literature?",
+      "option1": "Niranjan Mishra",
+      "Answer": "Ramesh Kuntal Megh",
+      "option3": "Uday Narayana Singh",
+      "option2": "Shrikant Deshmukh",
+      "weight": 1
+    },
+    {
+      "id": 2,
+      "question": "Name the first Indian to get Nobel prize in literature.",
+      "option1": "Amartya Sen",
+      "option2": "Lal Bahadur Shastri",
+      "option3": "CV Raman",
+      "Answer": "Rabindranath Tagore",
+      "weight": 1
+    },
+    {
+      "id": 3,
+      "question": "Which of the following awards is given in the field of literature?",
+      "option1": "Arjuna Award",
+      "option2": "Ashok Chakra",
+      "Answer": "Vyas Samman",
+      "option3": "Bharat Award",
+      "weight": 1
+    },
+    {
+      "id": 4,
+      "question": "The religious literature of the Jain at the early stage was written in",
+      "Answer": "Ardhamagadhi",
+      "option2": "Pali",
+      "option3": "Sanskrit",
+      "option1": "None",
+      "weight": 1
+    },
+    {
+      "id": 5,
+      "question": "Who among the following has not received a Nobel Prize in literature",
+      "option1": "Derek Walcott",
+      "option2": "Pablo Neruda",
+      "Answer": "Churchill",
+      "option3": "Ernest Hemingway",
+      "weight": 1
+    },
+    {
+      "id": 6,
+      "question": "Which poet is considered a national hero in Greece?",
+      "option1": "John Keats",
+      "Answer": "Lord Byron",
+      "option3": "Solan",
+      "option2": "Sappho",
+      "weight": 1
+    },
+    {
+      "id": 7,
+      "question": "Rupert Brooke wrote his poetry during which conflict?",
+      "option1": "Boer War",
+      "option2": "Second World War",
+      "option3": "Korean War",
+      "Answer": "First World War",
+      "weight": 1
+    },
+    {
+      "id": 8,
+      "question": "A pattern of accented and unaccented syllables in lines of poetry",
+      "option1": "rhyme scheme",
+      "Answer": "meter",
+      "option3": "rhythm",
+      "option2": "rhyme",
+      "weight": 1
+    },
+    {
+      "id": 9,
+      "question": "Applying human qualities to non-human things",
+      "Answer": "personification",
+      "option2": "onomatopoeia",
+      "option3": "alliteration",
+      "option1": "metaphor",
+      "weight": 1
+    },
+    {
+      "question": "A poem that tells a story with plot, setting, and characters ",
+      "Answer": "narrative",
+      "option1": "lyric",
+      "option2": "free verse",
+      "option3": "node",
+      "weight": "2",
+      "id": 10
+    }
+  ],
+  "sport": [
+    {
+      "id": 1,
+      "question": "Rovers Cup is related to which of the following sport?",
+      "Answer": "Football",
+      "option2": "Cricket",
+      "option3": "Hockey",
+      "option1": "Tennis",
+      "weight": 1
+    },
+    {
+      "id": 2,
+      "question": "Who is the President of International World Games Association?",
+      "Answer": "Jose Perurena Lopez",
+      "option2": "Andrew Parsons",
+      "option3": "Duane Kale",
+      "option1": "Robert Steadward",
+      "weight": 1
+    },
+    {
+      "id": 3,
+      "question": "How many teams had participated in the 2018 Women’s Hockey World Cup?",
+      "option1": "8",
+      "Answer": "16",
+      "option3": "22",
+      "option2": "20",
+      "weight": 1
+    },
+    {
+      "id": 4,
+      "question": "Which Indian cricketer has scored the maximum runs in ODIs?",
+      "option1": "Kapil Dev",
+      "option2": "Sunil Gavaskar",
+      "Answer": "Sachin Tendulkar",
+      "option3": "Virat Kohli",
+      "weight": 1
+    },
+    {
+      "id": 5,
+      "question": "Which is first Indian cricket tournament ?",
+      "option1": "Bombey Series",
+      "option2": "Pepsi Cup",
+      "Answer": "Bombay Triangular",
+      "option3": "None",
+      "weight": 1
+    },
+    {
+      "id": 6,
+      "question": "Which of the following is first cricket club in India ?",
+      "Answer": "Oriental Cricket Club",
+      "option2": "Maharashtra Cricket Club",
+      "option3": "East Indian Cricket Club",
+      "option1": "Bombay Cricket Club",
+      "weight": 1
+    },
+    {
+      "id": 7,
+      "question": "Indian played their First T20 Match against _______.",
+      "Answer": "South Africa",
+      "option2": "Australia",
+      "option3": "England",
+      "option1": "Pakistan",
+      "weight": 1
+    },
+    {
+      "id": 8,
+      "question": "Total no. of players playing on the pitch in a hockey match is?",
+      "Answer": "22",
+      "option2": "16",
+      "option3": "20",
+      "option1": "18",
+      "weight": 1
+    },
+    {
+      "id": 9,
+      "question": "The dimensions of a Hockey field are?",
+      "Answer": "91.4m X 55m",
+      "option2": "92m X 55m",
+      "option3": "92.5m X 56m",
+      "option1": "91.4m X 56m",
+      "weight": 1
+    },
+    {
+      "id": 10,
+      "question": "Name the nation that won 2014 Kabaddi World Cup Men's title.",
+      "Answer": "India",
+      "option2": "Bangladesh",
+      "option3": "Japan",
+      "option1": "Pakistan",
+      "weight": 1
+    }
+  ],
+  "gk": [
+    {
+      "id": 1,
+      "question": "In which place in India can we find cave temples of three faiths?",
+      "option1": "Agra",
+      "Answer": "Ellora",
+      "option3": "Delhi",
+      "option2": "Madhurai",
+      "weight": 1
+    },
+    {
+      "question": "Which foreign influence is seen in the rock cut architecture of India? ",
+      "Answer": "Persian",
+      "option1": "Indo-European",
+      "option2": "Greek",
+      "option3": "Arabic",
+      "weight": "2",
+      "id": 2
+    },
+    {
+      "id": 3,
+      "question": "Which of these cities has the maximum number of historical monuments?",
+      "option1": "Mumbai",
+      "Answer": "Delhi",
+      "option3": "Kolkata",
+      "option2": "Punjab",
+      "weight": 1
+    },
+    {
+      "id": 4,
+      "question": "Which monument was built in memory of a British monarch?",
+      "option1": "King Richard Memorial",
+      "option2": "Prince of Wales Memorial",
+      "option3": "King George Memorial",
+      "Answer": "Victoria Memorial",
+      "weight": 1
+    },
+    {
+      "id": 5,
+      "question": "Everyone knows 'The Taj Mahal'. It was built by the Emperor Shah Jahan, but for whom?",
+      "option1": "Farida Mahal",
+      "Answer": "Mumtaz Mahal",
+      "option3": "Jahani Mahal",
+      "option2": "Toba Begum",
+      "weight": 1
+    },
+    {
+      "id": 6,
+      "question": "Which city in India has built a 15.8 m high 'Gandhi Stupa' dedicated to Mahatma Gandhi?",
+      "option1": "Allahbad, UP",
+      "option2": "Varodara, Gujarat",
+      "option3": "Ranchi, Jharkhand",
+      "Answer": "Vijaywada, AP",
+      "weight": 1
+    },
+    {
+      "id": 7,
+      "question": "The architecture of the city of Cochin in Kerala reflects the influence of...?",
+      "option1": "The Dutch",
+      "option2": "The Portuguese",
+      "option3": "The British",
+      "Answer": "All of these",
+      "weight": 1
+    },
+    {
+      "question": "Where is the world's largest panoramic sculptural relief located? ",
+      "Answer": "Madhurai",
+      "option1": "Pondicherry",
+      "option2": "Kanchipuram",
+      "option3": "Mahabalipuram",
+      "weight": "2",
+      "id": 8
+    },
+    {
+      "id": 9,
+      "question": "In which Indian city would you find the mosque with 'Shaking Minarets'?",
+      "option1": "Allahbad",
+      "option2": "Hyderabad",
+      "option3": "Lucknow",
+      "Answer": "Ahmedabad",
+      "weight": 1
+    },
+    {
+      "id": 10,
+      "question": "Which state is known as India's Spice Garden...?",
+      "option1": "Bihar",
+      "Answer": "Kerela",
+      "option3": "Uttaranchal",
+      "option2": "Karnataka",
+      "weight": 1
+    }
+  ],
+  "subject_data": [
+    {
+      "username": "abcd",
+      "subject_name": "lit",
+      "highest_score": "23",
+      "no_of_times_attempted": "3",
+      "total_ques": 12,
+      "max_marks": 12,
+      "id": 1
+    },
+    {
+      "username": "abcd",
+      "subject_name": "ent",
+      "highest_score": "23",
+      "no_of_times_attempted": "3",
+      "total_ques": 12,
+      "max_marks": 12,
+      "id": 1
+    },
+    {
+      "username": "abcd",
+      "subject_name": "sport",
+      "highest_score": "23",
+      "no_of_times_attempted": "3",
+      "total_ques": 12,
+      "max_marks": 12,
+      "id": 1
+    },
+    {
+      "username": "abcd",
+      "subject_name": "gk",
+      "highest_score": "23",
+      "no_of_times_attempted": "3",
+      "total_ques": 12,
+      "max_marks": 12,
+      "id": 1
+    },
+    {
+      "username": "abcd",
+      "subject_name": "comp",
+      "highest_score": "23",
+      "no_of_times_attempted": "3",
+      "total_ques": 12,
+      "max_marks": 12,
+      "id": 1
+    }
+  ],
+  "users": [
+    {
+      "username": "Ghanshyam",
+      "email": "sdfs@ew.dffd",
+      "password": "d32c78b4596a6b63a5bf73708a15ac3f",
+      "ent": "Not Attampted",
+      "lit": "Not Attampted",
+      "gk": "Not Attampted",
+      "com": "Not Attampted",
+      "sport": "Not Attampted",
+      "id": 12
+    },
+    {
+      "username": "brk",
+      "email": "dff@dss.dsf",
+      "password": "6df5982a1b9512461368a1ad1df9159d",
+      "ent": "Not Attampted",
+      "lit": "Not Attampted",
+      "gk": "Not Attampted",
+      "com": "Not Attampted",
+      "sport": "Not Attampted",
+      "id": 13
+    },
+    {
+      "username": "abcd",
+      "email": "dsf@das.ds",
+      "password": "5975c85e8d2756810491f99edfa1cfed",
+      "ent": "0/11",
+      "lit": "Not Attampted",
+      "gk": "Not Attampted",
+      "com": "Not Attampted",
+      "sport": "Not Attampted",
+      "id": 14
+    },
+    {
+      "username": "defg",
+      "email": "fd@e.sfdf",
+      "password": "f1ce609eb6591ecd3dc405282fef22f9",
+      "ent": "Not Attampted",
+      "lit": "Not Attampted",
+      "gk": "Not Attampted",
+      "com": "Not Attampted",
+      "sport": "Not Attampted",
+      "id": 15
+    },
+    {
+      "username": "g6",
+      "email": "yddd@dfghjvhj.f",
+      "password": "c9a140d1a756e793ea9a6927c070b6c7",
+      "ent": "Not Attampted",
+      "lit": "Not Attampted",
+      "gk": "Not Attampted",
+      "com": "Not Attampted",
+      "sport": "Not Attampted",
+      "id": 16
+    },
+    {
+      "username": "user44447",
+      "email": "sjdsjdj@email.coom",
+      "password": "ef73781effc5774100f87fe2f437a435",
+      "ent": "0/11",
+      "sport": "4/10",
+      "gk": "0/5",
+      "lit": "0/10",
+      "com": "6/10",
+      "id": 18
+    },
+    {
+      "username": "admin_1",
+      "email": "sdfd@fsd.ddf",
+      "password": "6df5982a1b9512461368a1ad1df9159d",
+      "ent": "12/20",
+      "lit": "Not Attampted",
+      "gk": "Not Attampted",
+      "com": "Not Attampted",
+      "sport": "Not Attampted",
+      "id": 100
+    },
+    {
+      "username": "aj",
+      "email": "sjdsjdj@email.coomm",
+      "password": "85064efb60a9601805dcea56ec5402f7",
+      "ent": "0/12",
+      "com": "Not Attampted",
+      "lit": "Not Attampted",
+      "sport": "Not Attampted",
+      "gk": "1/12",
+      "id": 20
+    },
+    {
+      "username": "user4",
+      "email": "sjdsjdj@email.coom",
+      "password": "ef73781effc5774100f87fe2f437a435",
+      "ent": "Not Attampted",
+      "com": "Not Attampted",
+      "lit": "2/11",
+      "sport": "Not Attampted",
+      "gk": "Not Attampted",
+      "id": 21
+    },
+    {
+      "username": "user6",
+      "email": "jfasdbdf@ksf.com",
+      "password": "ef73781effc5774100f87fe2f437a435",
+      "ent": "0/12",
+      "com": "Not Attampted",
+      "lit": "Not Attampted",
+      "sport": "-0.5/10",
+      "gk": "0/12",
+      "id": 101
+    }
+  ]
+}

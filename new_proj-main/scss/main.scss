@@ -1,0 +1,113 @@
+$themeColorMajor: #5bc0de;
+$themeColoMinor: #ffffff;
+$fontColor: #0275d8;
+$fontColorRed:  red;;
+$fontColorSuccess: green;;
+
+//-----logo---
+.imgLogo{
+    
+    width: vw;
+    height: 7vh;
+}
+// ---------- body part ---------
+.sectionPart {
+    position: relative; 
+     margin: 150px 10px 0px 10px; 
+   }
+   .bodyPart{
+
+     background: linear-gradient(to bottom right, $themeColorMajor, $themeColoMinor);
+     background-repeat: no-repeat;
+   }
+   .headingWeb{
+       color: darken($fontColor,10%);
+       text-align: center;
+       
+   }
+//    ------ change color of card font --------
+   .category1{
+       color: $themeColorMajor;
+   }
+   .category2{
+       color: $fontColor;
+   }
+   //----cards item cursor -----
+   a{
+       cursor: pointer;
+   }
+   // ------- card effects -----
+   .contains{
+    box-shadow: 0 10px 12px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+}
+   .contains:hover{
+    
+    transform: scale(1.05);
+    box-shadow: 0 13px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+  }
+ 
+  //---hide some parts of cards
+
+  .hideQueMore{
+      display: none;
+  }
+  .hideUserMore{
+      display: none;
+  }
+  
+// ------ forms validation font colors and other css-------
+  label.error.fail-alert {
+    border-radius: 4px;
+    line-height: 1;
+    padding: 2px 0 6px 6px;
+    background: #ffe6eb;
+    color: $fontColorRed }
+  
+  input.valid.success-alert {
+    color: $fontColorSuccess }
+
+    .bottom-bar.space { 
+        visibility: hidden; /* hides the element but keeps it space*/
+     } 
+
+    // ----------- chart --------
+
+    .chart{
+        width: 100%;
+        height: 100%;
+    }
+
+   //mobile
+@media  screen and (max-width: 480px){
+    .imgLogo{
+        width: 15vw;
+        height: 9vh;
+    }
+    
+    .headingWeb{
+        padding-top: 20vw;
+    }
+    .category1{
+        text-align: center;
+    }
+    .category2{
+        text-align: center;
+    }
+    
+
+}
+
+// tablet
+@media only screen and (min-width:480px) and (max-width: 1000px){
+    .imgLogo{
+        width: 15vw;
+        height: 9vw;
+    }
+    .category1{
+        text-align: center;
+    }
+    .category2{
+        text-align: center;
+    }
+    
+}

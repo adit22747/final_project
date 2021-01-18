@@ -1,0 +1,240 @@
+.imgLogo {
+    width: 5vw;
+    height: 6vh; }
+      button{
+          border-radius: 10%;
+          margin: 10px;
+          background-color:rgb(110, 110, 13); /* Green */
+      border: none;
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-flex;
+  
+      font-size: 16px;
+  
+      cursor: pointer;
+      }
+   
+  body { 
+    display: grid;
+    grid-template-areas: 
+      "header header header"
+      "nav article ads"
+      "footer footer footer";
+    grid-template-rows: 80px 1fr 70px;  
+    grid-template-columns: 20% 1fr;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    height: 100vh;
+    margin: 0;
+    }  
+   footer, article, nav {
+    padding: 1.2em;
+    
+    
+    }
+   
+  #pageHeader {
+    grid-area: header;
+    background-color: black;
+    color: white;
+   
+    
+  
+    }
+    #flagged{
+      padding-top: 0em;
+      padding-bottom: 0em;
+    }
+  
+  #pageFooter {
+    grid-area: footer;
+    background-color: #5bc0de;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    }
+  #mainArticle { 
+    grid-area: article;  
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: justify; 
+    
+    background: linear-gradient(to bottom right, #5bc0de, #ffffff);
+    font-weight: bold;
+    }
+  #mainNav { 
+    grid-area: nav; 
+    background-color: white;
+    
+    }
+  #catTitle{
+      font-size: 30px;
+      font: bolder;
+      /* padding-top: 0em; */
+      padding: 0px 2px;
+  }
+  .weight,.flag,.reset{
+    float: right;
+  }
+   #non{
+      background-color: #292b2c; }
+  
+  /* Stack the layout on tablet view. */
+    @media all and (min-width: 480px) and (max-width: 1200px) and (orientation: landscape) {
+      .imgLogo {
+      width: 8vw;
+      height: 7vh; }
+      #mainArticle{
+          margin-top: 1.2em;
+        position: relative;
+        display: block;
+        font-size: 13px;
+    
+    }
+   #mainNav{
+       margin-top: 1.2em;
+        position: relative;
+        display: block;
+        padding-bottom: 0.5px;
+    } 
+  
+    button{
+          border-radius: 10%;
+           margin: 2px; 
+         
+          position: relative;
+          background-color:rgb(110, 110, 13); /* Green */
+      border: none;
+      color: white;
+      padding: 5px 5px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+     
+      font-size: 10px;
+  
+      cursor: pointer;
+      }
+      #non{
+        margin-top: 10px; 
+        padding: 5px 5px;     
+        text-align: center;
+        font-size: 13px;
+        
+      }
+      #count{
+        margin-top: -15px; 
+        padding: 5px 5px;     
+        text-align: center;
+        font-size: 13px;
+      }
+      #pageFooter{
+          position: relative;
+          display: inline;
+      }
+      #catTitle{
+          font-size: 20px;
+          font: bolder;
+          padding: 0px 0px;
+      }
+      #time{
+        font-size: 8px;
+        font: bold;
+        float: left;
+      }
+      .flag,.reset,.weight{
+        float: right;
+        font-size: 10px;
+      }
+    
+   
+   } 
+  .notatt{
+    padding: 1.2em;
+  }
+  /* Stack the layout on small devices/viewports. */
+   @media all and (max-width: 480px) and (orientation: landscape) {
+      .imgLogo {
+      width: 15vw;
+      height: 7vh; }
+  
+    #mainArticle{
+        margin-top: 1.2em;
+        position: relative;
+        display: block;
+    
+    }
+   #mainNav{
+       margin-top: 1.2em;
+        position: relative;
+        display: block;
+        padding-bottom: 0.5px;
+    } 
+  
+    button{
+          border-radius: 10%;
+           margin: 2px; 
+         
+          position: relative;
+          background-color:rgb(110, 110, 13); /* Green */
+      border: none;
+      color: white;
+      padding: 5px 5px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+     
+      font-size: 10px;
+  
+      cursor: pointer;
+      }
+      #non{
+        margin-top: 10px; 
+        padding: 5px 5px;     
+        text-align: center;
+        font-size: 13px;
+        
+      }
+      #count{
+        margin-top: -15px; 
+        padding: 5px 5px;     
+        text-align: center;
+        font-size: 13px;
+      }
+      #pageFooter{
+          position: relative;
+          display: inline;
+      }
+      #catTitle{
+          font-size: 13px;
+          font: bolder;
+          padding: 0px 0px;
+      }
+      #time{
+        font-size: 10px;
+        font: bold;
+        float: left;
+      }
+      .flag,.reset,.weight{
+        float: right;
+        font-size: 10px;
+      }
+    
+   
+  }
+  #head a{
+      color: white;
+      font-size: 25px;
+      
+  }
+  #Result{
+      /* position: absolute;
+      bottom: 0; */
+      background-color: violet;
+      color: blueviolet;
+  }
+  
+  

@@ -1,0 +1,87 @@
+.sectionPart {
+    position: relative;
+    margin: 80px 10px 10px 10px;
+    /* background-image: linear-gradient(to right, #5bc0de, #ffffff); */ }
+  
+  .bodyPart {
+    background: linear-gradient(to bottom right, #5bc0de, #ffffff); }
+  
+  .pulse {
+    position: relative;
+    display: block;
+    width: 15px;
+    height: 15px;
+    background: #f64747;
+    border-radius: 50%;
+    top: calc(50% + 20px);
+    left: calc(50% + 5px); }
+  
+  /* ----- for row 1 ---- */
+  .category_row_1 {
+    color: #f0ad4e; }
+  
+  .category_row_2 {
+    color: #5bc0de; }
+  
+  .category_row_3 {
+    color: #0275d8; }
+  
+  /* ------ for row 2------- */
+  .category_row2_1 {
+    color: #5cb85c; }
+  
+  .category_row2_2 {
+    color: #292b2a; }
+  
+  .category_row2_3 {
+    color: red; }
+  
+  /* ------ start button for quiz ------ */
+  .startQuiz:hover {
+    padding-right: 25px; }
+  
+  .contains {
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+    margin-top: 2vw; }
+  
+  .contains:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06); }
+  
+  .card-flip {
+    position: relative;
+    width: 100%;
+    transform-style: preserve-3d;
+    height: auto;
+    transition: all 0.5s ease-out;
+    background: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 2vw; }
+  
+  .card-flip > div {
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    height: 100%;
+    width: 100%;
+    border: none; }
+  
+  .front {
+    transform: rotateY(0deg); }
+  
+  .back {
+    transform: rotateY(180deg);
+    position: absolute;
+    top: 0; }
+  
+  .card-flip:hover .front {
+    transform: rotateY(-180deg); }
+  
+  .card-flip:hover .back {
+    transform: rotateY(0deg); }
+  
+  @media (max-width: 1000px) {
+    .height {
+      margin-bottom: 20%; } }
+  

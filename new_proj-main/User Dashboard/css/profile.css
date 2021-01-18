@@ -1,0 +1,35 @@
+footer{
+    margin-top: 70%;
+}
+
+.imgLogo {
+  width: vw;
+  height: 7vh; }
+
+.sectionPart {
+  position: relative;
+  margin: 150px 10px 0px 10px; }
+
+body {
+  background: linear-gradient(to bottom right, #5bc0de, #ffffff);
+  background-repeat: no-repeat; }
+
+.headingWeb {
+  color: #025aa5;
+  text-align: center; }
+
+
+  @media screen and (max-width: 480px) {
+    .imgLogo {
+      width: 15vw;
+      height: 9vh; }
+    .headingWeb {
+      padding-top: 20vw; }
+   }
+  
+  @media only screen and (min-width: 480px) and (max-width: 1000px) {
+    .imgLogo {
+      width: 15vw;
+      height: 9vw; }
+   }
+   

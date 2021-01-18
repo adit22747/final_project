@@ -1,0 +1,5 @@
+projectKey=G_9_mini
+serverUrl=http://172.27.12.78
+dashboardUrl=http://172.27.12.78/dashboard/index/G_9_mini
+ceTaskId=AXcVv_0cirXW5IlAPXCx
+ceTaskUrl=http://172.27.12.78/api/ce/task?id=AXcVv_0cirXW5IlAPXCx

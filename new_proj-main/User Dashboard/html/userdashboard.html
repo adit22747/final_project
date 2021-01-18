@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quzio - Online Quiz</title>
+    
+    <!-- site icon -->
+    <link href="../images/abc.ico" rel="icon">
+     <!-- jQuery UI Plugin CSS-->
+     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"/>
+
+     <!-- jQuery Select CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.1/css/select2.min.css"/>
+     
+    <!-- bootstrap min css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <!-- all css -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <!-- jqueru min js -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="../../js/session.js"></script>
+    <script src="../../js/user_dashboard.js"></script>
+    <script src="../../js/logout.js"></script>
+
+
+
+
+    <!-- <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script> -->
+    <!-- bootstrap min js -->
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <!-- jQuery Validate Script-->
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.2/jquery.validate.min.js" integrity="sha512-UdIMMlVx0HEynClOIFSyOrPggomfhBKJE28LKl8yR3ghkgugPnG6iLfRfHwushZl1MOPSY6TsuBDGPK2X4zYKg==" crossorigin="anonymous"></script>
+    <!-- <script src="../../../jquery-3.5.1 (1).js"></script> -->
+    <!-- jQuery UI Plugin Script -->
+    <script defer src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+    <!-- Bootstrap Autocomplete Plugin -->
+    <script defer src="https://cdn.jsdelivr.net/gh/xcash/bootstrap-autocomplete@v2.3.7/dist/latest/bootstrap-autocomplete.min.js"></script>
+   <!-- custom js -->
+    <script defer src="../js/userdashboard.js"></script>
+    <!-- custom css -->
+    <link rel="stylesheet" href="../css/userdashboard.css">
+   
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="../html/userdashboard.html"> <img src="../images/abc.png" class="image-fluid imgLogo">  Welcome, <script>document.write(sessionStorage.getItem('username'));</script></a>
+             
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                 
+              <div class="collapse navbar-collapse  justify-content-end" id="navbarTogglerDemo01">
+                    <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link mx-2" href="../html/profile.html"><i class="fa fa-user me-2" aria-hidden="true"></i><strong>Profile</strong></a>
+                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-2" href="../html/performance.html">Performance</a>
+                        </li>
+                            
+                    <form class="d-flex ">
+                      
+                      <button class="btn btn-outline-info text-white" type="submit" id="logout_btn"><strong>Logout</strong></button>
+                    </form>
+                  
+                  </div>
+            </div>
+        </nav>
+    </header>
+
+
+   
+        <!-- --------- section of web app ---------->
+        
+<div class="bodyPart">
+      
+    <section class="sectionPart">
+                                         
+        <div class="container mb-5">
+            <p class="display-4 headingWeb my-5"><strong>Categories</strong></p>
+
+            <div class="row row-cols-sm-1">
+                    <div class="col-lg-6">
+                        <div class="card my-5 contains" id="entertainment">
+
+                            <div class="row row-cols-sm-2">
+                                    <div class="col-md-4"><img src="../images/entertainment.png" class="card-img-top " alt="..."></div>
+                                        <div class="col-lg-8">
+                                                <p class="display-6 card-body category1"><strong><br>Entertainment</strong></p>
+                                                 <div class="hideEntMore">
+                                                  <button type="button"  id="ent" class="startquiz btn btn-warning">
+                                                    Start Quiz
+                                                  </button>
+                                                  
+                                                  </div>   
+                                        </div>
+                                </div>
+                            </div>
+                            
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card my-5 contains" id="GK">
+
+                            <div class="row row-cols-sm-2">
+                                    <div class="col-md-4"><img src="../images/gk.png" class="card-img-top " alt="..."></div>
+                                        <div class="col-lg-8">
+                                                <p class="display-6 card-body category1"><strong>General<br>Knowledge</strong></p>
+                                                 <div class="hideGKMore"><button type="button" id="gk" class="startquiz btn btn-warning">
+                                                  Start Quiz
+                                                </button>
+                                             </div>      
+                                        </div>
+                                </div>
+                            </div>
+                     
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card my-5 contains" id="Sports">
+
+                            <div class="row row-cols-sm-2">
+                                    <div class="col-md-4"><img src="../images/sports.png" class="card-img-top " alt="..."></div>
+                                        <div class="col-lg-8">
+                                                <p class="display-6 card-body category1"><strong><br>Sports</strong></p>
+                                                 <div class="hideSportsMore"><button type="button" id="sport" class="startquiz btn btn-warning">
+                                                  Start Quiz
+                                                </button>
+                                              </div> 
+                                                 
+                                        </div>
+                                </div>
+                            </div>
+                     
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card my-5 contains" id="Computer">
+
+                            <div class="row row-cols-sm-2">
+                                    <div class="col-md-4"><img src="../images/computer.png" class="card-img-top " alt="..."></div>
+                                        <div class="col-lg-8">
+                                                <p class="display-6 card-body category1"><strong><br>Commerce</strong></p>
+                                                 <div class="hideCompMore"><button type="button" id="com" class="startquiz btn btn-warning">
+                                                  Start Quiz
+                                                </button>
+                                               </div> 
+                                        </div>
+                                </div>
+                            </div>
+                     
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card my-5 contains" id="Literature">
+
+                            <div class="row row-cols-sm-2">
+                                    <div class="col-md-4"><img src="../images/literature.png" class="card-img-top " alt="..."></div>
+                                        <div class="col-lg-8">
+                                                <p class="display-6 card-body category1"><strong><br>Literature</strong></p>
+                                                 <div class="hideLitMore"><button type="button" id="lit" class="startquiz btn btn-warning">
+                                                  Start Quiz
+                                                </button>
+                                                </div>
+                                        </div>
+                                </div>
+                            </div>
+                     
+                    </div>
+                    
+               
+              
+        </div>
+    </section>
+</div>
+           
+ 
+   
+        <!-- Highest Scorer modal -->
+
+        <div class="modal fade" id="aqmodal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="loginLabel" aria-hidden="true">
+          <div class="modal-dialog modal-xl">
+              <div class="modal-content">
+                  <div class="modal-header card-header bg-primary text-white">
+                      <!-- Here category name will come in H5 -->
+                      <h5 class="modal-title" id="addQuesLabel"></h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="col-sm col-md-8 col-lg-8 mb-3">
+                        <p>Name: </p><p id="forName"></p>
+                        <p>Highest Score: </p><p id="forScore"></p>
+                    </div>
+                  </div>
+                  
+            </div>
+          </div>
+        </div>
+        <!-- Modal for start quiz button -->
+        <div class="modal fade" id="exampleModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="startbutton" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header bg-primary">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <div class="col-sm col-md-8 col-lg-8 mb-3">
+                  <p>1. Quiz is not proctored.<br>
+                    2. The quiz will be of 10 minutes duration.<br>
+                    3. You can attempt the quiz only once.<br>
+                    4. There are a total 10 questions.<br>
+                    5. Each question carries one mark. No negative marking for wrong answers.<br>
+                    6. Questions have single Choice. 
+                    </p>
+
+              </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-primary" onclick="startQuiz()">Start Quiz</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+   
+
+
+      <!-- Footer -->
+  <footer class="footer bg-dark">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
+          <ul class="list-inline mb-2">
+            <li class="list-inline-item">
+              <a href="../html/about.html">About</a>
+            </li>
+            <li class="list-inline-item">&sdot;</li>
+            <li class="list-inline-item">
+              <a href="#">Contact Us</a>
+            </li>
+            <li class="list-inline-item">&sdot;</li>
+            <li class="list-inline-item">
+              <a href="#">Terms of Use</a>
+            </li>
+            <li class="list-inline-item">&sdot;</li>
+            <li class="list-inline-item">
+              <a href="#">Privacy Policy</a>
+            </li>
+          </ul>
+          <p class="text-muted small mb-4 mb-lg-0">&copy; Quzio Website 2020. All Rights Reserved.</p>
+        </div>
+        <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
+          <ul class="list-inline mb-0">
+            <li class="list-inline-item mr-3">
+              <a href="#">
+                <i class="fab fa-facebook fa-2x fa-fw"></i>
+              </a>
+            </li>
+            <li class="list-inline-item mr-3">
+              <a href="#">
+                <i class="fab fa-twitter-square fa-2x fa-fw"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">
+                <i class="fab fa-instagram fa-2x fa-fw"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+      
+</body>
+</html>
+
